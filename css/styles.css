@@ -1,0 +1,206 @@
+body {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  background-color: rgb(252, 244, 244);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr 3fr 0.3fr;
+  grid-template-areas: "header header header" "main main main" "main main main" "footer footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid rgb(33, 141, 212);
+}
+header #botoneraNav a {
+  text-decoration: none;
+  color: rgb(33, 141, 212);
+  padding: 0vh 1vh 0vh 1vh;
+  border-right: 1px solid rgb(33, 141, 212);
+  font-weight: 700;
+}
+header #botoneraNav #btnTrabajaConNostros {
+  border: none;
+}
+
+main #secTitulo {
+  background-image: url(../../assets/imagenes/banner-main.webp);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  border-bottom: 3px solid rgb(33, 141, 212);
+  margin-bottom: 5vh;
+}
+main #secTitulo h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+main #secTitulo h2 {
+  font-size: 2.5rem;
+  color: white;
+}
+main #secTitulo #textoPresentacion {
+  font-size: 1.3rem;
+  text-align: center;
+  width: 100vh;
+  margin-bottom: 3vh;
+  font-weight: 500;
+  color: white;
+}
+main #secTitulo #btnContacto {
+  margin-bottom: 10vh;
+  background-color: rgb(33, 141, 212);
+  border: none;
+  border-radius: 20px;
+}
+main #secTitulo #btnContacto p {
+  color: white;
+  padding: 0vh 2vh 0vh 2vh;
+}
+main #secTitulo #btnContacto:hover {
+  background-color: white;
+}
+main #secTitulo #btnContacto:hover p {
+  color: rgb(33, 141, 212);
+}
+main #secEquipo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main #secEquipo #infoEquipo {
+  width: 50vh;
+  text-align: center;
+}
+main #secEquipo #infoEquipo #tituloEquipo {
+  font-size: 3rem;
+}
+main #secEquipo #infoEquipo #textoEquipo {
+  font-size: 1.3rem;
+}
+main #secServicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7vh;
+}
+main #secServicio h2 {
+  font-size: 2.5rem;
+}
+main #secServicio #textoServicio {
+  text-align: center;
+  width: 100vh;
+  font-size: 1.2rem;
+}
+main #secServicio #btnContactoServicio {
+  margin-bottom: 10vh;
+  background-color: rgb(33, 141, 212);
+  border: none;
+  border-radius: 20px;
+}
+main #secServicio #btnContactoServicio p {
+  color: white;
+  padding: 0vh 2vh 0vh 2vh;
+}
+main #secServicio #btnContactoServicio:hover {
+  background-color: rgb(125, 193, 238);
+}
+main #secMetodologiaTrabajo {
+  margin-top: 7vh;
+  display: flex;
+  justify-content: space-around;
+}
+main #secMetodologiaTrabajo #infoMetodologiaTrabajo h2 {
+  font-size: 2.5rem;
+}
+main #secMetodologiaTrabajo #infoMetodologiaTrabajo h3 {
+  font-size: 1.5rem;
+}
+main #secMetodologiaTrabajo #infoMetodologiaTrabajo ul {
+  list-style-image: url(../../assets/icons/flecha.svg);
+}
+main #secMetodologiaTrabajo #infoMetodologiaTrabajo ul li {
+  font-size: 1.2rem;
+  padding: 1vh 0vh 1vh 0vh;
+}
+main #secMetodologiaTrabajo #fotoMetodologiaTranajo img {
+  height: 70vh;
+}
+main #secBannerTecnologia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/imagenes/banner-inicio-tecnologia.jpg);
+  background-size: cover;
+  margin-top: 5vh;
+}
+main #secBannerTecnologia img {
+  margin-top: 5vh;
+  height: 10vh;
+}
+main #secBannerTecnologia h2 {
+  font-size: 3rem;
+  color: white;
+}
+main #secBannerTecnologia p {
+  text-align: center;
+  width: 100vh;
+  color: white;
+}
+main #secBeneficios {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10vh;
+}
+main #secBeneficios #imgBeneficios img {
+  height: 60vh;
+}
+main #secBeneficios #infoBeneficios h2 {
+  font-size: 2rem;
+  width: 40vh;
+}
+main #secBeneficios #infoBeneficios ul {
+  list-style-image: url(../../assets/icons/flecha.svg);
+}
+main #secBeneficios #infoBeneficios ul li {
+  font-size: 1.2rem;
+  padding: 1vh 0vh 1vh 0vh;
+}
+
+footer {
+  background-color: rgb(33, 141, 212);
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 3px solid rgb(20, 133, 207);
+}
+footer p {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,14 @@
+@import "./variables";
+@import "./mixins";
+
+footer{
+    background-color: $colorPrincipal;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 3px solid rgb(20, 133, 207);
+    p{
+        color: white;
+    }
+}

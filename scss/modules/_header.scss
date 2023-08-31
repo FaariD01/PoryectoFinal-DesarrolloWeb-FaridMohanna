@@ -1,0 +1,22 @@
+header{
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid rgb(33, 141, 212);;
+    #botoneraNav{
+     
+        a{
+            @include reseteo-links;
+            color: rgb(33, 141, 212);
+            padding: 0vh 1vh 0vh 1vh;
+            border-right: 1px solid rgb(33, 141, 212);
+            font-weight: 700;
+        }
+        #btnTrabajaConNostros{
+            border: none;
+        }
+    }
+}
