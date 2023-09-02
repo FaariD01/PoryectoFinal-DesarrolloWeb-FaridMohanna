@@ -48,7 +48,9 @@
                     a{
                         @include reseteo-links;
                         color: $colorPrincipal;
-                        
+                        font-size: 1.2rem;
+                        &:hover{
+                            color: $colorSecundario;}
                     }
                 }
             }
@@ -60,7 +62,7 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
-                    
+                    text-align: center;
                     h2{
                         font-size: 3rem;
                         color: $colorPrincipal;
@@ -69,6 +71,9 @@
                     a{
                         @include reseteo-links;
                         color: $colorPrincipal;
+                        font-size: 1.2rem;
+                        &:hover{
+                            color: $colorSecundario;}
                         
                     }
                 }
