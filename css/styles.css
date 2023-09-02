@@ -230,13 +230,13 @@ footer p {
   font-family: "fuentePrincipal";
   src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
 }
-#mainEdificios #tituloCABA {
+#mainEdificios #tituloEdificios {
   text-align: center;
   margin-bottom: 10vh;
   background-color: rgb(33, 141, 212);
   color: white;
 }
-#mainEdificios #tituloCABA h2 {
+#mainEdificios #tituloEdificios h2 {
   margin: 0;
   padding: 0;
   box-sizing: 0;
