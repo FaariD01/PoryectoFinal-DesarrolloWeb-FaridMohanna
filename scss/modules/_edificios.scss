@@ -1,0 +1,91 @@
+@import "./mixins";
+@import "./variables";
+
+#mainEdificios{
+    
+    #tituloCABA{
+       
+        text-align: center;
+        margin-bottom: 10vh;
+        background-color: $colorPrincipal;
+        color: white;      
+        h2{
+            @include reset;
+            font-size: 2.5rem;
+            padding: 2vh 0vh 2vh 0vh;
+            
+        }
+    }
+    #listadoDeEdificios{
+        #edificio{                  
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10vh;
+
+            
+            #edificioIzquierda{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a{
+                    img{
+                        width: 50vh;
+                        margin-right: 2vh;
+                        border: 2px solid $colorPrincipal;
+                        transition: transform .2s;
+                        box-shadow: 3px 3px 50px black;
+                        &:hover{
+                            transform: scale(1.1);}
+                    }
+                }
+                #infoEdificio{
+                    text-align: center;
+                    h2{
+                        font-size: 3rem;
+                        color: $colorPrincipal;
+                        width: 35vh;
+                    }
+                    a{
+                        @include reseteo-links;
+                        color: $colorPrincipal;
+                        
+                    }
+                }
+            }
+            #edificioDerecha{
+                display: flex;
+                
+                #infoEdificio{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    h2{
+                        font-size: 3rem;
+                        color: $colorPrincipal;
+                        width: 35vh;
+                    }
+                    a{
+                        @include reseteo-links;
+                        color: $colorPrincipal;
+                        
+                    }
+                }
+                a{
+                    img{
+                        width: 50vh;
+                        margin-left: 2vh;
+                        border: 2px solid $colorPrincipal;
+                        transition: transform .2s;
+                        box-shadow: 3px 3px 50px black;
+                        &:hover{
+                            transform: scale(1.1);}
+                    }
+                }
+
+            }
+            
+        }
+    }
+}

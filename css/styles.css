@@ -10,7 +10,7 @@ body {
   box-sizing: 0;
   background-color: rgb(252, 244, 244);
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 3fr 3fr 0.3fr;
+  grid-template-rows: 0.1fr 3fr 3fr 0.3fr;
   grid-template-areas: "header header header" "main main main" "main main main" "footer footer footer";
 }
 
@@ -40,6 +40,7 @@ header {
   align-items: center;
   border-bottom: 3px solid rgb(33, 141, 212);
   height: 12vh;
+  z-index: 1;
 }
 header #botoneraNav a {
   text-decoration: none;
@@ -223,6 +224,84 @@ footer {
 }
 footer p {
   color: white;
+}
+
+@font-face {
+  font-family: "fuentePrincipal";
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+}
+#mainEdificios #tituloCABA {
+  text-align: center;
+  margin-bottom: 10vh;
+  background-color: rgb(33, 141, 212);
+  color: white;
+}
+#mainEdificios #tituloCABA h2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-size: 2.5rem;
+  padding: 2vh 0vh 2vh 0vh;
+}
+#mainEdificios #listadoDeEdificios #edificio {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioIzquierda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioIzquierda a img {
+  width: 50vh;
+  margin-right: 2vh;
+  border: 2px solid rgb(33, 141, 212);
+  transition: transform 0.2s;
+  box-shadow: 3px 3px 50px black;
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioIzquierda a img:hover {
+  transform: scale(1.1);
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioIzquierda #infoEdificio {
+  text-align: center;
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioIzquierda #infoEdificio h2 {
+  font-size: 3rem;
+  color: rgb(33, 141, 212);
+  width: 35vh;
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioIzquierda #infoEdificio a {
+  text-decoration: none;
+  color: rgb(33, 141, 212);
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioDerecha {
+  display: flex;
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioDerecha #infoEdificio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioDerecha #infoEdificio h2 {
+  font-size: 3rem;
+  color: rgb(33, 141, 212);
+  width: 35vh;
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioDerecha #infoEdificio a {
+  text-decoration: none;
+  color: rgb(33, 141, 212);
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioDerecha a img {
+  width: 50vh;
+  margin-left: 2vh;
+  border: 2px solid rgb(33, 141, 212);
+  transition: transform 0.2s;
+  box-shadow: 3px 3px 50px black;
+}
+#mainEdificios #listadoDeEdificios #edificio #edificioDerecha a img:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -6,7 +6,7 @@ body{
     @include reset;
     background-color: rgb(252, 244, 244);
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 3fr 3fr 0.3fr;
+    grid-template-rows: 0.1fr 3fr 3fr 0.3fr;
     grid-template-areas: 
     "header header header"
     "main main main"
