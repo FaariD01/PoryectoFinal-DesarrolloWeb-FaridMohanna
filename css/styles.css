@@ -318,143 +318,79 @@ footer p {
   font-family: "fuentePrincipal";
   src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
 }
-#mainEdificioDetalle #sliderEdificio {
-  margin-top: 5vh;
+#mainEdificioDetalle #sliderEdificio * {
+  margin: 0;
+  padding: 0;
 }
-#mainEdificioDetalle #sliderEdificio #slider {
-  margin: 0 auto;
-  width: 80vh;
-  max-width: 100%;
-  text-align: center;
+#mainEdificioDetalle #sliderEdificio .container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background-color: black;
 }
-#mainEdificioDetalle #sliderEdificio #slider input[type=radio] {
+#mainEdificioDetalle #sliderEdificio .slider input {
+  visibility: hidden;
   display: none;
 }
-#mainEdificioDetalle #sliderEdificio #slider label {
-  cursor: pointer;
-  text-decoration: none;
-}
-#mainEdificioDetalle #sliderEdificio #slides {
-  padding: 10px;
-  border: 3px solid #ccc;
-  background: #fff;
-  position: relative;
-  z-index: 1;
-}
-#mainEdificioDetalle #sliderEdificio #overflow {
+#mainEdificioDetalle #sliderEdificio .buttons {
+  position: absolute;
   width: 100%;
-  overflow: hidden;
-}
-#mainEdificioDetalle #sliderEdificio #slide1:checked ~ #slides .inner {
-  margin-left: 0;
-}
-#mainEdificioDetalle #sliderEdificio #slide2:checked ~ #slides .inner {
-  margin-left: -100%;
-}
-#mainEdificioDetalle #sliderEdificio #slide3:checked ~ #slides .inner {
-  margin-left: -200%;
-}
-#mainEdificioDetalle #sliderEdificio #slide4:checked ~ #slides .inner {
-  margin-left: -300%;
-}
-#mainEdificioDetalle #sliderEdificio #slides .inner {
-  transition: margin-left 800ms cubic-bezier(0.77, 0, 0.175, 1);
-  width: 400%;
-  line-height: 0;
-  height: 300px;
-}
-#mainEdificioDetalle #sliderEdificio #slides .slide {
-  width: 25%;
-  float: left;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 70vh;
-  color: #fff;
+  bottom: 50px;
+  gap: 10px;
 }
-#mainEdificioDetalle #sliderEdificio #slides .slide_1 {
-  background: #00171F;
+#mainEdificioDetalle #sliderEdificio .buttons label {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  opacity: 0.5;
+  cursor: pointer;
+  z-index: 1;
+  transition: 300ms ease-in-out;
 }
-#mainEdificioDetalle #sliderEdificio #slides .slide_2 {
-  background: #003459;
-}
-#mainEdificioDetalle #sliderEdificio #slides .slide_3 {
-  background: #007EA7;
-}
-#mainEdificioDetalle #sliderEdificio #slides .slide_4 {
-  background: #00A8E8;
-}
-#mainEdificioDetalle #sliderEdificio #controls {
-  margin: -180px 0 0 0;
-  width: 100%;
-  height: 50px;
-  z-index: 3;
-  position: relative;
-}
-#mainEdificioDetalle #sliderEdificio #controls label {
-  transition: opacity 0.2s ease-out;
-  display: none;
-  width: 50px;
-  height: 50px;
-  opacity: 0.4;
-}
-#mainEdificioDetalle #sliderEdificio #controls label:hover {
+#mainEdificioDetalle #sliderEdificio .buttons label:hover {
+  scale: 1.2;
   opacity: 1;
 }
-#mainEdificioDetalle #sliderEdificio #slide1:checked ~ #controls label:nth-child(2),
-#mainEdificioDetalle #sliderEdificio #slide2:checked ~ #controls label:nth-child(3),
-#mainEdificioDetalle #sliderEdificio #slide3:checked ~ #controls label:nth-child(4),
-#mainEdificioDetalle #sliderEdificio #slide4:checked ~ #controls label:nth-child(1) {
-  background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
-  float: right;
-  margin: 0 -50px 0 0;
-  display: block;
+#mainEdificioDetalle #sliderEdificio .slider input:nth-child(1):checked ~ .buttons label:nth-child(1),
+#mainEdificioDetalle #sliderEdificio .slider input:nth-child(2):checked ~ .buttons label:nth-child(2),
+#mainEdificioDetalle #sliderEdificio .slider input:nth-child(3):checked ~ .buttons label:nth-child(3) {
+  opacity: 1;
+  scroll-margin: 1.2;
+  width: 40px;
 }
-#mainEdificioDetalle #sliderEdificio #slide1:checked ~ #controls label:nth-last-child(2),
-#mainEdificioDetalle #sliderEdificio #slide2:checked ~ #controls label:nth-last-child(3),
-#mainEdificioDetalle #sliderEdificio #slide3:checked ~ #controls label:nth-last-child(4),
-#mainEdificioDetalle #sliderEdificio #slide4:checked ~ #controls label:nth-last-child(1) {
-  background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
-  float: left;
-  margin: 0 0 0 -50px;
-  display: block;
+#mainEdificioDetalle #sliderEdificio .content {
+  position: relative;
+  width: 300vw;
+  display: flex;
+  transition: 400ms ease-in-out;
 }
-#mainEdificioDetalle #sliderEdificio #bullets {
-  margin: 150px 0 0;
-  text-align: center;
+#mainEdificioDetalle #sliderEdificio .firstslide, #mainEdificioDetalle #sliderEdificio .secondslide, #mainEdificioDetalle #sliderEdificio .thirdslide {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
-#mainEdificioDetalle #sliderEdificio #bullets label {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background: #ccc;
-  margin: 0 10px;
+#mainEdificioDetalle #sliderEdificio .firstslide {
+  background-color: white;
 }
-#mainEdificioDetalle #sliderEdificio #slide1:checked ~ #bullets label:nth-child(1),
-#mainEdificioDetalle #sliderEdificio #slide2:checked ~ #bullets label:nth-child(2),
-#mainEdificioDetalle #sliderEdificio #slide3:checked ~ #bullets label:nth-child(3),
-#mainEdificioDetalle #sliderEdificio #slide4:checked ~ #bullets label:nth-child(4) {
-  background: #444;
+#mainEdificioDetalle #sliderEdificio .secondslide {
+  background-color: white;
 }
-@media screen and (max-width: 900px) {
-  #mainEdificioDetalle #sliderEdificio #slide1:checked ~ #controls label:nth-child(2),
-  #mainEdificioDetalle #sliderEdificio #slide2:checked ~ #controls label:nth-child(3),
-  #mainEdificioDetalle #sliderEdificio #slide3:checked ~ #controls label:nth-child(4),
-  #mainEdificioDetalle #sliderEdificio #slide4:checked ~ #controls label:nth-child(1),
-  #mainEdificioDetalle #sliderEdificio #slide1:checked ~ #controls label:nth-last-child(2),
-  #mainEdificioDetalle #sliderEdificio #slide2:checked ~ #controls label:nth-last-child(3),
-  #mainEdificioDetalle #sliderEdificio #slide3:checked ~ #controls label:nth-last-child(4),
-  #mainEdificioDetalle #sliderEdificio #slide4:checked ~ #controls label:nth-last-child(1) {
-    margin: 0;
-  }
-  #mainEdificioDetalle #sliderEdificio #slides {
-    max-width: calc(100% - 140px);
-    margin: 0 auto;
-  }
+#mainEdificioDetalle #sliderEdificio .thirdslide {
+  background-color: white;
 }
-#mainEdificioDetalle #nombreEdificio {
-  margin-top: 5vh;
+#mainEdificioDetalle #sliderEdificio .slider input:nth-child(1):checked ~ .content {
+  left: 0;
+}
+#mainEdificioDetalle #sliderEdificio .slider input:nth-child(2):checked ~ .content {
+  left: -100vw;
+}
+#mainEdificioDetalle #sliderEdificio .slider input:nth-child(3):checked ~ .content {
+  left: -200vw;
 }
 #mainEdificioDetalle #nombreEdificio h2 {
   text-align: center;
@@ -465,6 +401,7 @@ footer p {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 10vh;
 }
 #mainEdificioDetalle #detallesEdificio #listadoDetallesIzquierdo ul {
   list-style-image: url(../assets/icons/flecha.svg);
