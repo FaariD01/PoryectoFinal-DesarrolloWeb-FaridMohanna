@@ -1,6 +1,7 @@
 @import "./mixins";
 
 body{
+    font-family: fuentePrincipal;
     display: grid;
     @include reset;
     background-color: rgb(252, 244, 244);

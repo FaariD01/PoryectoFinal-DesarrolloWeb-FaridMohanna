@@ -1,4 +1,9 @@
+@font-face {
+  font-family: "fuentePrincipal";
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+}
 body {
+  font-family: fuentePrincipal;
   display: grid;
   margin: 0;
   padding: 0;
@@ -21,7 +26,12 @@ footer {
   grid-area: footer;
 }
 
+@font-face {
+  font-family: "fuentePrincipal";
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+}
 header {
+  font-family: fuentePrincipal;
   background-color: white;
   display: flex;
   position: sticky;
@@ -29,6 +39,7 @@ header {
   justify-content: space-around;
   align-items: center;
   border-bottom: 3px solid rgb(33, 141, 212);
+  height: 12vh;
 }
 header #botoneraNav a {
   text-decoration: none;
@@ -37,12 +48,19 @@ header #botoneraNav a {
   border-right: 1px solid rgb(33, 141, 212);
   font-weight: 700;
 }
+header #botoneraNav a:hover {
+  color: rgb(93, 211, 93);
+}
 header #botoneraNav #btnTrabajaConNostros {
   border: none;
 }
 
-main #secTitulo {
-  background-image: url(/assets/imagenes/banner-main.webp);
+@font-face {
+  font-family: "fuentePrincipal";
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+}
+#mainInicio #secTitulo {
+  background-image: url(../assets/imagenes/banner-main.webp);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -52,15 +70,15 @@ main #secTitulo {
   border-bottom: 3px solid rgb(33, 141, 212);
   margin-bottom: 5vh;
 }
-main #secTitulo h1 {
+#mainInicio #secTitulo h1 {
   color: white;
   font-size: 3.5rem;
 }
-main #secTitulo h2 {
+#mainInicio #secTitulo h2 {
   font-size: 2.5rem;
   color: white;
 }
-main #secTitulo #textoPresentacion {
+#mainInicio #secTitulo #textoPresentacion {
   font-size: 1.3rem;
   text-align: center;
   width: 100vh;
@@ -68,129 +86,133 @@ main #secTitulo #textoPresentacion {
   font-weight: 500;
   color: white;
 }
-main #secTitulo #btnContacto {
+#mainInicio #secTitulo #btnContacto {
   margin-bottom: 10vh;
   background-color: rgb(33, 141, 212);
   border: none;
   border-radius: 20px;
 }
-main #secTitulo #btnContacto p {
+#mainInicio #secTitulo #btnContacto p {
   color: white;
   padding: 0vh 2vh 0vh 2vh;
 }
-main #secTitulo #btnContacto:hover {
+#mainInicio #secTitulo #btnContacto:hover {
   background-color: white;
 }
-main #secTitulo #btnContacto:hover p {
+#mainInicio #secTitulo #btnContacto:hover p {
   color: rgb(33, 141, 212);
 }
-main #secEquipo {
+#mainInicio #secEquipo {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-main #secEquipo #infoEquipo {
+#mainInicio #secEquipo #infoEquipo {
   width: 50vh;
   text-align: center;
 }
-main #secEquipo #infoEquipo #tituloEquipo {
+#mainInicio #secEquipo #infoEquipo #tituloEquipo {
   font-size: 3rem;
 }
-main #secEquipo #infoEquipo #textoEquipo {
+#mainInicio #secEquipo #infoEquipo #textoEquipo {
   font-size: 1.3rem;
 }
-main #secServicio {
+#mainInicio #secServicio {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 7vh;
 }
-main #secServicio h2 {
+#mainInicio #secServicio h2 {
   font-size: 2.5rem;
 }
-main #secServicio #textoServicio {
+#mainInicio #secServicio #textoServicio {
   text-align: center;
   width: 100vh;
   font-size: 1.2rem;
 }
-main #secServicio #btnContactoServicio {
+#mainInicio #secServicio #btnContactoServicio {
   margin-bottom: 10vh;
   background-color: rgb(33, 141, 212);
   border: none;
   border-radius: 20px;
 }
-main #secServicio #btnContactoServicio p {
+#mainInicio #secServicio #btnContactoServicio p {
   color: white;
   padding: 0vh 2vh 0vh 2vh;
 }
-main #secServicio #btnContactoServicio:hover {
+#mainInicio #secServicio #btnContactoServicio:hover {
   background-color: rgb(125, 193, 238);
 }
-main #secMetodologiaTrabajo {
+#mainInicio #secMetodologiaTrabajo {
   margin-top: 7vh;
   display: flex;
   justify-content: space-around;
 }
-main #secMetodologiaTrabajo #infoMetodologiaTrabajo h2 {
+#mainInicio #secMetodologiaTrabajo #infoMetodologiaTrabajo h2 {
   font-size: 2.5rem;
 }
-main #secMetodologiaTrabajo #infoMetodologiaTrabajo h3 {
+#mainInicio #secMetodologiaTrabajo #infoMetodologiaTrabajo h3 {
   font-size: 1.5rem;
 }
-main #secMetodologiaTrabajo #infoMetodologiaTrabajo ul {
-  list-style-image: url(/assets/icons/flecha.svg);
+#mainInicio #secMetodologiaTrabajo #infoMetodologiaTrabajo ul {
+  list-style-image: url(../assets/icons/flecha.svg);
 }
-main #secMetodologiaTrabajo #infoMetodologiaTrabajo ul li {
+#mainInicio #secMetodologiaTrabajo #infoMetodologiaTrabajo ul li {
   font-size: 1.2rem;
   padding: 1vh 0vh 1vh 0vh;
 }
-main #secMetodologiaTrabajo #fotoMetodologiaTranajo img {
+#mainInicio #secMetodologiaTrabajo #fotoMetodologiaTranajo img {
   height: 70vh;
 }
-main #secBannerTecnologia {
+#mainInicio #secBannerTecnologia {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/assets/imagenes/banner-inicio-tecnologia.jpg);
+  background-image: url(../assets/imagenes/banner-inicio-tecnologia.jpg);
   background-size: cover;
   margin-top: 5vh;
 }
-main #secBannerTecnologia img {
+#mainInicio #secBannerTecnologia img {
   margin-top: 5vh;
   height: 10vh;
 }
-main #secBannerTecnologia h2 {
+#mainInicio #secBannerTecnologia h2 {
   font-size: 3rem;
   color: white;
 }
-main #secBannerTecnologia p {
+#mainInicio #secBannerTecnologia p {
   text-align: center;
   width: 100vh;
   color: white;
 }
-main #secBeneficios {
+#mainInicio #secBeneficios {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 10vh;
 }
-main #secBeneficios #imgBeneficios img {
+#mainInicio #secBeneficios #imgBeneficios img {
   height: 60vh;
 }
-main #secBeneficios #infoBeneficios h2 {
+#mainInicio #secBeneficios #infoBeneficios h2 {
   font-size: 2rem;
   width: 40vh;
 }
-main #secBeneficios #infoBeneficios ul {
-  list-style-image: url(/assets/icons/flecha.svg);
+#mainInicio #secBeneficios #infoBeneficios ul {
+  list-style-image: url(../assets/icons/flecha.svg);
 }
-main #secBeneficios #infoBeneficios ul li {
+#mainInicio #secBeneficios #infoBeneficios ul li {
   font-size: 1.2rem;
   padding: 1vh 0vh 1vh 0vh;
 }
 
+@font-face {
+  font-family: "fuentePrincipal";
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+}
 footer {
   background-color: rgb(33, 141, 212);
   margin-top: 10vh;

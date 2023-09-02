@@ -4,9 +4,9 @@
 
 
 
-main{
+#mainInicio{
     #secTitulo{
-        background-image: url(/assets/imagenes/banner-main.webp);
+        background-image: url(../assets/imagenes/banner-main.webp);
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -110,7 +110,7 @@ main{
 
             }
             ul{
-                list-style-image: url(/assets/icons/flecha.svg);
+                list-style-image: url(../assets/icons/flecha.svg);
                 li{
                     font-size: 1.2rem;
                     padding: 1vh 0vh 1vh 0vh;
@@ -129,7 +129,7 @@ main{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url(/assets/imagenes/banner-inicio-tecnologia.jpg);
+        background-image: url(../assets/imagenes/banner-inicio-tecnologia.jpg);
         background-size: cover;
         margin-top: 5vh;
         img{
@@ -165,7 +165,7 @@ main{
                 width: 40vh;
             }
             ul{
-                list-style-image: url(/assets/icons/flecha.svg);
+                list-style-image: url(../assets/icons/flecha.svg);
                 li{
                     font-size: 1.2rem;
                     padding: 1vh 0vh 1vh 0vh;
