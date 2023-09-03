@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Innovar - Administración de Consorcios</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <!-- ENCABEZADO -->
+    <header>
+      <!-- LOGO EMPRESA -->
+      <div id="logo">
+        <img
+          src="../assets/imagenes/logo-innovar.webp"
+          alt="Logo de la empresa"
+        />
+      </div>
+      <!-- BOTONERA DE NAVEGACION -->
+      <div id="botoneraNav">
+        <a id="btnInicio" href="../index.html">Inicio</a>
+        <a id="btnEdificios" href="./edificios.html"
+          >Edificios Que Administramos</a
+        >
+        <a id="btnContactoServicio" href="#">Contrata Nuestros Servicios</a>
+        <a id="btnTrabajaConNostros" href="#">Unite a Nuestro Equipo</a>
+      </div>
+    </header>
+    <!-- MAIN DE LA PAGINA DE ROOSEVELT 5640 -->
+    <main id="mainEdificioDetalle">
+      <section id="sliderEdificio">
+        <!-- CARRUSEL CON 3 FOTOS -->
+        <div class="container">
+          <div class="slider">
+            <input type="radio" name="slider" id="slideOne" checked />
+            <input type="radio" name="slider" id="slideTwo" />
+            <input type="radio" name="slider" id="slideThree" />
+
+            <div class="buttons">
+              <label for="slideOne"></label>
+              <label for="slideTwo"></label>
+              <label for="slideThree"></label>
+            </div>
+
+            <div class="content">
+              <div class="firstslide">
+                <img
+                  src="../assets/imagenes/altos-del-sol/altos-del-sol-principal.webp"
+                  alt="Imagen Edificio"
+                />
+              </div>
+              <div class="secondslide">
+                <img
+                  src="../assets/imagenes/altos-del-sol/altos-del-sol-slide2.webp"
+                  alt="Imagen Edificio"
+                />
+              </div>
+              <div class="thirdslide">
+                <img
+                  src="../assets/imagenes/altos-del-sol/altos-del-sol-slide3.webp"
+                  alt="Imagen Edificio"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION DETALLES DEL EDIFICIO -->
+      <div id="nombreEdificio"><h2>ALTOS DEL SOL</h2></div>
+      <section id="detallesEdificio">
+        <div id="listadoDetallesIzquierdo">
+          <ul>
+            <li>Direccion: Av. De Mayo 1580</li>
+            <li>Cantidad de Departamentos: 38</li>
+            <li>Cantidad de Cocheras Techada: 5</li>
+            <li>Bauleras: 10</li>
+          </ul>
+        </div>
+        <!-- MAPA DE GOOGLE CON LA DIRECCION DEL EDIFICIO -->
+        <div id="mapaGoogle">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.930306501625!2d-58.56512552425739!3d-34.65646297293534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7dbac1df201%3A0xa6da95ecc15d23d8!2sAv.%20de%20Mayo%201580%2C%20B1704BVP%20Ramos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1693769414822!5m2!1ses-419!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 Innovar</p>
+      <p>Hecho por Farid Mohanna</p>
+    </footer>
+  </body>
+</html>
