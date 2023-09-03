@@ -392,10 +392,13 @@ footer p {
 #mainEdificioDetalle #sliderEdificio .slider input:nth-child(3):checked ~ .content {
   left: -200vw;
 }
+#mainEdificioDetalle #nombreEdificio {
+  background-color: rgb(33, 141, 212);
+}
 #mainEdificioDetalle #nombreEdificio h2 {
   text-align: center;
   font-size: 3rem;
-  color: rgb(33, 141, 212);
+  color: white;
 }
 #mainEdificioDetalle #detallesEdificio {
   display: flex;
