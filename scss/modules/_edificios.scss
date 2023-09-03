@@ -8,7 +8,8 @@
         text-align: center;
         margin-bottom: 10vh;
         background-color: $colorPrincipal;
-        color: white;      
+        color: white;    
+
         h2{
             @include reset;
             font-size: 2.5rem;

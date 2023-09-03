@@ -1,6 +1,6 @@
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+  src: url(../assets/fonts/carthage-pro-regular.ttf);
 }
 body {
   font-family: fuentePrincipal;
@@ -28,7 +28,7 @@ footer {
 
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+  src: url(../assets/fonts/carthage-pro-regular.ttf);
 }
 header {
   font-family: fuentePrincipal;
@@ -58,7 +58,7 @@ header #botoneraNav #btnTrabajaConNostros {
 
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+  src: url(../assets/fonts/carthage-pro-regular.ttf);
 }
 #mainInicio #secTitulo {
   background-image: url(../assets/imagenes/banner-main.webp);
@@ -175,19 +175,21 @@ header #botoneraNav #btnTrabajaConNostros {
   background-image: url(../assets/imagenes/banner-inicio-tecnologia.jpg);
   background-size: cover;
   margin-top: 5vh;
+  height: 50vh;
 }
 #mainInicio #secBannerTecnologia img {
   margin-top: 5vh;
   height: 10vh;
 }
 #mainInicio #secBannerTecnologia h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: white;
 }
 #mainInicio #secBannerTecnologia p {
   text-align: center;
   width: 100vh;
   color: white;
+  font-size: 1.3rem;
 }
 #mainInicio #secBeneficios {
   display: flex;
@@ -212,7 +214,7 @@ header #botoneraNav #btnTrabajaConNostros {
 
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+  src: url(../assets/fonts/carthage-pro-regular.ttf);
 }
 footer {
   background-color: rgb(33, 141, 212);
@@ -229,7 +231,7 @@ footer p {
 
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+  src: url(../assets/fonts/carthage-pro-regular.ttf);
 }
 #mainEdificios #tituloEdificios {
   text-align: center;
@@ -316,7 +318,7 @@ footer p {
 
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+  src: url(../assets/fonts/carthage-pro-regular.ttf);
 }
 #mainEdificioDetalle #sliderEdificio * {
   margin: 0;
