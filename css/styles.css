@@ -1,6 +1,6 @@
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/carthage-pro-regular.ttf);
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
 }
 body {
   font-family: fuentePrincipal;
@@ -28,7 +28,7 @@ footer {
 
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/carthage-pro-regular.ttf);
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
 }
 header {
   font-family: fuentePrincipal;
@@ -58,7 +58,7 @@ header #botoneraNav #btnTrabajaConNostros {
 
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/carthage-pro-regular.ttf);
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
 }
 #mainInicio #secTitulo {
   background-image: url(../assets/imagenes/banner-main.webp);
@@ -218,7 +218,7 @@ header #botoneraNav #btnTrabajaConNostros {
 
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/carthage-pro-regular.ttf);
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
 }
 footer {
   background-color: rgb(33, 141, 212);
@@ -235,7 +235,7 @@ footer p {
 
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/carthage-pro-regular.ttf);
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
 }
 #mainEdificios #tituloEdificios {
   text-align: center;
@@ -322,7 +322,7 @@ footer p {
 
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/carthage-pro-regular.ttf);
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
 }
 #mainEdificioDetalle #sliderEdificio * {
   margin: 0;
@@ -422,7 +422,7 @@ footer p {
 
 @font-face {
   font-family: "fuentePrincipal";
-  src: url(../assets/fonts/carthage-pro-regular.ttf);
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
 }
 #mainContrataServicios #contacto {
   display: flex;
