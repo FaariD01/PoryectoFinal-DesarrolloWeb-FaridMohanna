@@ -39,14 +39,16 @@
             background-color: $colorPrincipal;
             border: none;
             border-radius: 20px;
-            p{
+            height: 4.5vh;
+            width: 14vh;
+            a{
                 color: white;
-                padding: 0vh 2vh 0vh 2vh;
-                
+                @include reseteo-links;
+                                
             }
             &:hover{
                 background-color: white;
-                p{
+                a{
                     color: $colorPrincipal;
                     
                 }
@@ -87,10 +89,12 @@
             background-color: $colorPrincipal;
             border: none;
             border-radius: 20px;
-            p{
+            height: 4.5vh;
+            width: 14vh;
+            a{
                 color: white;
-                padding: 0vh 2vh 0vh 2vh;
-                
+                @include reseteo-links;
+                                
             }
             &:hover{
                 background-color: rgb(125, 193, 238);

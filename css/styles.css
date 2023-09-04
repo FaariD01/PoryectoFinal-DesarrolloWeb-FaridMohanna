@@ -50,7 +50,7 @@ header #botoneraNav a {
   font-weight: 700;
 }
 header #botoneraNav a:hover {
-  color: rgb(93, 211, 93);
+  color: rgb(60, 184, 60);
 }
 header #botoneraNav #btnTrabajaConNostros {
   border: none;
@@ -92,15 +92,17 @@ header #botoneraNav #btnTrabajaConNostros {
   background-color: rgb(33, 141, 212);
   border: none;
   border-radius: 20px;
+  height: 4.5vh;
+  width: 14vh;
 }
-#mainInicio #secTitulo #btnContacto p {
+#mainInicio #secTitulo #btnContacto a {
   color: white;
-  padding: 0vh 2vh 0vh 2vh;
+  text-decoration: none;
 }
 #mainInicio #secTitulo #btnContacto:hover {
   background-color: white;
 }
-#mainInicio #secTitulo #btnContacto:hover p {
+#mainInicio #secTitulo #btnContacto:hover a {
   color: rgb(33, 141, 212);
 }
 #mainInicio #secEquipo {
@@ -138,10 +140,12 @@ header #botoneraNav #btnTrabajaConNostros {
   background-color: rgb(33, 141, 212);
   border: none;
   border-radius: 20px;
+  height: 4.5vh;
+  width: 14vh;
 }
-#mainInicio #secServicio #btnContactoServicio p {
+#mainInicio #secServicio #btnContactoServicio a {
   color: white;
-  padding: 0vh 2vh 0vh 2vh;
+  text-decoration: none;
 }
 #mainInicio #secServicio #btnContactoServicio:hover {
   background-color: rgb(125, 193, 238);
@@ -280,7 +284,7 @@ footer p {
   font-size: 1.2rem;
 }
 #mainEdificios #listadoDeEdificios #edificio #edificioIzquierda #infoEdificio a:hover {
-  color: rgb(93, 211, 93);
+  color: rgb(60, 184, 60);
 }
 #mainEdificios #listadoDeEdificios #edificio #edificioDerecha {
   display: flex;
@@ -303,7 +307,7 @@ footer p {
   font-size: 1.2rem;
 }
 #mainEdificios #listadoDeEdificios #edificio #edificioDerecha #infoEdificio a:hover {
-  color: rgb(93, 211, 93);
+  color: rgb(60, 184, 60);
 }
 #mainEdificios #listadoDeEdificios #edificio #edificioDerecha a img {
   width: 50vh;
@@ -414,6 +418,106 @@ footer p {
 #mainEdificioDetalle #detallesEdificio #listadoDetallesIzquierdo ul li {
   padding: 1vh 0vh 1vh 0vh;
   font-size: 1.5rem;
+}
+
+@font-face {
+  font-family: "fuentePrincipal";
+  src: url(../assets/fonts/carthage-pro-regular.ttf);
+}
+#mainContrataServicios #contacto {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+#mainContrataServicios #contacto #contactate {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#mainContrataServicios #contacto #contactate h2 {
+  font-size: 2rem;
+  width: 50vh;
+  text-align: center;
+  color: rgb(60, 184, 60);
+}
+#mainContrataServicios #contacto #contactate #mediosDeContacto {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 10vh;
+  font-weight: 600;
+}
+#mainContrataServicios #contacto #contactate #mediosDeContacto #telefonosContacto img {
+  width: 7vh;
+}
+#mainContrataServicios #contacto #contactate #mediosDeContacto #telefonosContacto p {
+  font-size: 1.5rem;
+  color: black;
+}
+#mainContrataServicios #contacto #contactate #mediosDeContacto #telefonosContacto #nroTelefonoCelular {
+  font-size: 1.2rem;
+}
+#mainContrataServicios #contacto #contactate #mediosDeContacto #telefonosContacto #nroTelefonoFijo {
+  font-size: 1.2rem;
+}
+#mainContrataServicios #contacto #contactate #mediosDeContacto #mailContacto img {
+  width: 7vh;
+}
+#mainContrataServicios #contacto #contactate #mediosDeContacto #mailContacto p {
+  font-size: 1.5rem;
+}
+#mainContrataServicios #contacto #contactate #mediosDeContacto #mailContacto #mail {
+  font-size: 1.2rem;
+  text-align: center;
+}
+#mainContrataServicios #contacto #nosotrosTeContactamos {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#mainContrataServicios #contacto #nosotrosTeContactamos h2 {
+  font-size: 2rem;
+  width: 50vh;
+  color: rgb(60, 184, 60);
+}
+#mainContrataServicios #contacto #nosotrosTeContactamos #formularios {
+  display: flex;
+  justify-content: space-evenly;
+}
+#mainContrataServicios #contacto #nosotrosTeContactamos #formularios #formularioDatosContacto div {
+  padding-bottom: 2vh;
+}
+#mainContrataServicios #contacto #nosotrosTeContactamos #formularios #formularioDatosContacto div input {
+  margin-left: 2vh;
+  width: 20vh;
+  height: 2vh;
+}
+#mainContrataServicios #contacto #nosotrosTeContactamos #formularios #formularioDatosEdificio div {
+  padding-bottom: 1vh;
+}
+#mainContrataServicios #contacto #nosotrosTeContactamos #formularios #formularioDatosEdificio div input {
+  margin-left: 1vh;
+  height: 2vh;
+}
+#mainContrataServicios #contacto #nosotrosTeContactamos #formularios #formularioDatosEdificio div #encargadoInput {
+  width: 23vh;
+}
+#mainContrataServicios #ubicacionOficinas {
+  font-size: 2rem;
+}
+#mainContrataServicios #ubicacionOficinas h2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-align: center;
+  background-color: rgb(33, 141, 212);
+  color: white;
+  padding: 2vh 0vh 2vh 0vh;
+}
+#mainContrataServicios #ubicacionOficinas iframe {
+  border-top: 3px solid black;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 /*# sourceMappingURL=styles.css.map */

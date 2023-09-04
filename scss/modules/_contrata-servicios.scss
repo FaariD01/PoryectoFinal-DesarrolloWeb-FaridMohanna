@@ -1,0 +1,132 @@
+@import "./mixins";
+@import "./variables";
+
+
+#mainContrataServicios{
+    #contacto{
+        display: flex;
+        justify-content: space-around;
+        
+        margin-top: 5vh;
+        #contactate{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            
+                h2{
+                    font-size: 2rem;
+                    width: 50vh;
+                    text-align: center;  
+                    color: $colorSecundario;  
+                }
+                #mediosDeContacto{
+                    display: flex;
+                    justify-content: space-around;
+                    text-align: center;
+                    margin-top: 10vh; 
+                    font-weight: 600;                    
+                    #telefonosContacto{
+                        
+                        img{
+                            width: 7vh;
+                        }
+                        p{
+                            font-size: 1.5rem;
+                            color: black;
+                        }
+                        #nroTelefonoCelular{
+                            font-size: 1.2rem;
+                            
+                        }
+                        #nroTelefonoFijo{
+                            font-size: 1.2rem;
+                            
+                        }
+                    }
+                    #mailContacto{
+                        img{
+                            width: 7vh;
+                        }
+                        p{
+                            font-size: 1.5rem;
+                        }
+                        #mail{
+                            font-size: 1.2rem;
+                            text-align: center;
+                            
+                            
+                            
+                        }
+                    }
+                }
+            
+            
+        }
+        #nosotrosTeContactamos{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+             
+            h2{
+                font-size: 2rem;
+                width: 50vh;
+                color: $colorSecundario; 
+                
+            }
+            #formularios{
+                display: flex;
+                justify-content: space-evenly;
+                #formularioDatosContacto{
+                    h3{
+                        
+                    }
+                    div{
+                        padding-bottom: 2vh;
+                        
+                        input{
+                            margin-left: 2vh;
+                            width: 20vh;
+                            height: 2vh;
+                            
+                        }
+                    }
+                }
+                #formularioDatosEdificio{
+                    div{
+                        
+                        padding-bottom: 1vh;
+                        
+                        input{
+                            margin-left: 1vh;
+                            height: 2vh;
+                            
+                        }
+                        #encargadoInput{
+                            width: 23vh;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    #ubicacionOficinas{
+        font-size: 2rem;        
+        
+        h2{
+
+            @include reset;
+            text-align: center;
+            background-color: $colorPrincipal;
+            color: white;
+            padding: 2vh 0vh 2vh 0vh;
+            
+        }
+        iframe{
+            border-top: 3px solid black;
+            margin-top: 3vh;
+            margin-bottom: 3vh;
+        }
+    }
+   
+}
