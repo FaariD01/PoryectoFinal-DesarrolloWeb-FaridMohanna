@@ -73,60 +73,44 @@
                 color: $colorSecundario; 
                 
             }
-            #formularios{
+            #btnPresupuesto{
+                margin-bottom: 10vh;
                 display: flex;
-                justify-content: space-evenly;
-                #formularioDatosContacto{
-                    h3{
-                        
-                    }
-                    div{
-                        padding-bottom: 2vh;
-                        
-                        input{
-                            margin-left: 2vh;
-                            width: 20vh;
-                            height: 2vh;
-                            
-                        }
-                    }
-                }
-                #formularioDatosEdificio{
-                    div{
-                        
-                        padding-bottom: 1vh;
-                        
-                        input{
-                            margin-left: 1vh;
-                            height: 2vh;
-                            
-                        }
-                        #encargadoInput{
-                            width: 23vh;
-                        }
+                align-items: center;
+                justify-content: center;
+                
+                a{
+                    button{
+                        margin-top: 6vh;
+                        width: 50vh;
+                        height: 10vh;
+                        font-size: 2rem;
+                        border-radius: 10px;
+                        background-color: $colorPrincipal;
+                        color: white;
+                        border-color: white;
+                        font-family: fuentePrincipal;
                     }
                 }
-            }
-            
-        }
-    }
-    #ubicacionOficinas{
-        font-size: 2rem;        
-        
-        h2{
 
-            @include reset;
-            text-align: center;
+            }
+        }
+
+    }
+    
+    
+    #ubicacionOficinas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2{
             background-color: $colorPrincipal;
             color: white;
-            padding: 2vh 0vh 2vh 0vh;
-            
-        }
-        iframe{
-            border-top: 3px solid black;
-            margin-top: 3vh;
-            margin-bottom: 3vh;
+            text-align: center;
+            font-size: 3rem;
+            padding: 1.7vh 0vh 1.7vh 0vh;
+
         }
     }
-   
 }

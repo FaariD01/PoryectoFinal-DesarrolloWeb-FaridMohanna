@@ -73,7 +73,7 @@ header #botoneraNav #btnTrabajaConNostros {
 }
 #mainInicio #secTitulo h1 {
   color: white;
-  font-size: 3.5rem;
+  font-size: 5rem;
 }
 #mainInicio #secTitulo h2 {
   font-size: 2.5rem;
@@ -480,44 +480,109 @@ footer p {
   width: 50vh;
   color: rgb(60, 184, 60);
 }
-#mainContrataServicios #contacto #nosotrosTeContactamos #formularios {
+#mainContrataServicios #contacto #nosotrosTeContactamos #btnPresupuesto {
+  margin-bottom: 10vh;
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
 }
-#mainContrataServicios #contacto #nosotrosTeContactamos #formularios #formularioDatosContacto div {
-  padding-bottom: 2vh;
-}
-#mainContrataServicios #contacto #nosotrosTeContactamos #formularios #formularioDatosContacto div input {
-  margin-left: 2vh;
-  width: 20vh;
-  height: 2vh;
-}
-#mainContrataServicios #contacto #nosotrosTeContactamos #formularios #formularioDatosEdificio div {
-  padding-bottom: 1vh;
-}
-#mainContrataServicios #contacto #nosotrosTeContactamos #formularios #formularioDatosEdificio div input {
-  margin-left: 1vh;
-  height: 2vh;
-}
-#mainContrataServicios #contacto #nosotrosTeContactamos #formularios #formularioDatosEdificio div #encargadoInput {
-  width: 23vh;
-}
-#mainContrataServicios #ubicacionOficinas {
+#mainContrataServicios #contacto #nosotrosTeContactamos #btnPresupuesto a button {
+  margin-top: 6vh;
+  width: 50vh;
+  height: 10vh;
   font-size: 2rem;
-}
-#mainContrataServicios #ubicacionOficinas h2 {
-  margin: 0;
-  padding: 0;
-  box-sizing: 0;
-  text-align: center;
+  border-radius: 10px;
   background-color: rgb(33, 141, 212);
   color: white;
-  padding: 2vh 0vh 2vh 0vh;
+  border-color: white;
+  font-family: fuentePrincipal;
 }
-#mainContrataServicios #ubicacionOficinas iframe {
-  border-top: 3px solid black;
+#mainContrataServicios #ubicacionOficinas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mainContrataServicios #ubicacionOficinas h2 {
+  background-color: rgb(33, 141, 212);
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  padding: 1.7vh 0vh 1.7vh 0vh;
+}
+
+@font-face {
+  font-family: "fuentePrincipal";
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+}
+#mainFormularioSolicitarPresupuesto #formularios {
+  display: flex;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto {
+  width: 50%;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto h3 {
+  font-size: 3rem;
+  background-color: rgb(33, 141, 212);
+  text-align: center;
+  color: white;
+  padding: 1vh 0vh 1vh 0vh;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto div {
+  margin-left: 5vh;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto div label {
+  font-size: 1.5rem;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto div input {
+  height: 3vh;
+  width: 30vh;
+  margin-bottom: 2vh;
+  margin-left: 3vh;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto div #horariosInput {
+  width: 7vh;
+  font-family: fuentePrincipal;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio {
+  width: 50%;
+  text-align: justify;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio h3 {
+  font-size: 3rem;
+  background-color: rgb(33, 141, 212);
+  text-align: center;
+  color: white;
+  padding: 1vh 0vh 1vh 0vh;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio div label {
+  font-size: 1.5rem;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio div input {
   margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-left: 2vh;
+  height: 2vh;
+  font-family: fuentePrincipal;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio div p {
+  font-weight: 600;
+}
+#mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio #encargadoInput {
+  width: 23vh;
+}
+#mainFormularioSolicitarPresupuesto #btnEnviarSolicitud {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+#mainFormularioSolicitarPresupuesto #btnEnviarSolicitud a button {
+  width: 30vh;
+  height: 10vh;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: rgb(60, 184, 60);
+  color: white;
+  border-color: white;
+  font-family: fuentePrincipal;
 }
 
 /*# sourceMappingURL=styles.css.map */

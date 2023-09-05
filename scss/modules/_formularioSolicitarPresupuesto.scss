@@ -1,0 +1,90 @@
+@import "./variables";
+@import "./mixins";
+
+
+#mainFormularioSolicitarPresupuesto{
+    
+    #formularios{
+        display: flex;
+        #formularioDatosContacto{
+            width: 50%;
+            h3{
+                font-size: 3rem;
+                background-color: $colorPrincipal;
+                text-align: center;
+                color: white;
+                padding: 1vh 0vh 1vh 0vh;
+            }
+            div{
+                margin-left: 5vh;
+                label{
+                    
+                    font-size: 1.5rem;
+                    
+                }
+                input{
+                    height: 3vh;
+                    width: 30vh;
+                    margin-bottom: 2vh;
+                    margin-left: 3vh;
+                    
+                }
+                #horariosInput{
+                    width: 7vh;
+                    font-family: fuentePrincipal;
+                }
+            }
+        }
+        #formularioDatosEdificio{
+            width: 50%;
+            text-align: justify;
+            h3{
+                font-size: 3rem;
+                background-color: $colorPrincipal;
+                text-align: center;
+                color: white;
+                padding: 1vh 0vh 1vh 0vh;
+            }
+            div{
+                label{
+                    font-size: 1.5rem;
+                }
+                input{
+                    margin-top: 3vh;
+                    margin-left: 2vh;
+                    height: 2vh;
+                    font-family: fuentePrincipal;
+                    
+                }
+                p{
+                    
+                    font-weight: 600;
+                }
+            }
+            #encargadoInput{
+                width: 23vh;
+            }
+
+        }
+    }
+    #btnEnviarSolicitud{
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        a{
+            button{
+                width: 30vh;
+                height: 10vh;
+                font-size: 2rem;
+                border-radius: 10px;
+                background-color: $colorSecundario;
+                color: white;
+                border-color: white;
+                font-family: fuentePrincipal;
+            }
+        }
+    }
+}
+
+
+
