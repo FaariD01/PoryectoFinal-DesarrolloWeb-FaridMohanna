@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Innovar - Administración de Consorcios</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <!-- ENCABEZADO -->
+    <header>
+      <!-- LOGO EMPRESA -->
+      <div id="logo">
+        <a href="../index.html">
+          <img
+            src="../assets/imagenes/logo-innovar.webp"
+            alt="Logo de la empresa"
+          />
+        </a>
+      </div>
+      <!-- BOTONERA DE NAVEGACION -->
+      <div id="botoneraNav">
+        <a id="btnInicio" href="../index.html">Inicio</a>
+        <a id="btnEdificios" href="./edificios.html"
+          >Edificios Que Administramos</a
+        >
+        <a id="btnContactoServicio" href="./contrata-servicios.html"
+          >Contrata Nuestros Servicios</a
+        >
+        <a id="btnTrabajaConNostros" href="./unite-al-equipo.html"
+          >Unite a Nuestro Equipo</a
+        >
+      </div>
+    </header>
+    <!-- MAIN DE LA PAGINA UNITE A NUESTRO EQUIPO-->
+    <main id="mainUniteAlEquipo">
+      <h3>Postulate para un puesto administrativo en nuestro equipo</h3>
+      <section id="secFormularioPostulacionAdministrativo">
+        <!-- FORMULARIO POSTULACION PARA ADMINISTRATIVO -->
+        <form id="formularioPostulacionAdministrativo" action="#" method="post">
+          <div>
+            <label for="">Nombre:</label>
+            <input type="text" name="nombre" />
+          </div>
+          <div>
+            <label for="">Apellido:</label>
+            <input type="text" name="apellido" />
+          </div>
+          <div>
+            <label for="">Mail de Contacto:</label>
+            <input type="email" name="mail" id="" />
+          </div>
+          <div>
+            <label for="">Numero de Contacto:</label>
+            <input type="number" name="numeroContacto" id="" />
+          </div>
+          <div>
+            <label for="">Salario Pretendido:</label>
+            <input type="number" name="numeroContacto" id="" />
+          </div>
+          <div>
+            <label for="">Puesto:</label>
+            <select name="puesto" id="lang">
+              <option value="asesor">Asesor</option>
+              <option value="cobranzas">Cobranzas</option>
+              <option value="facturacion">Facturacion</option>
+              <option value="atencionProveedores">
+                Atencion a Proveedores
+              </option>
+              <option value="relevamientos">Relevamientos</option>
+            </select>
+          </div>
+        </form>
+        <img
+          src="../assets/imagenes/puesto-administrativo.webp"
+          alt="Imagen Puesto Administrativo"
+        />
+      </section>
+      <div id="btnEnviarSolicitudAdministrativo">
+        <a href="../index.html"><button>Enviar Solicitud</button></a>
+      </div>
+      <h3>Para trabajar con nosotros como proveedor, completa estos datos:</h3>
+      <section id="secFormularioPostulacionProveedor">
+        <img
+          src="../assets/imagenes/puesto-proveedores.webp"
+          alt="Imgen Postulacion Proveedor"
+        />
+        <!-- FOMULARIO POSTULACION COMO PROVEEDOR-->
+        <form id="formularioPostulacionProveedor" action="#" method="post">
+          <div>
+            <label for="">Nombre:</label>
+            <input type="text" name="" />
+          </div>
+          <div>
+            <label for="">Apellido:</label>
+            <input type="text" name="" />
+          </div>
+          <div>
+            <label for="">Mail de Contacto:</label>
+            <input type="email" name="mail" id="" />
+          </div>
+          <div>
+            <label for="">Numero de Contacto:</label>
+            <input type="number" name="numeroContacto" id="" />
+          </div>
+          <div>
+            <label for="">Salario Pretendido:</label>
+            <input type="number" name="numeroContacto" id="" />
+          </div>
+          <div>
+            <label for="">Rubro:</label>
+            <select name="rubro" id="lang">
+              <option value="plomeria">Plomeria</option>
+              <option value="gasista">Gasista</option>
+              <option value="albañil">Albañil</option>
+              <option value="pintor">Pintor</option>
+              <option value="silletero">Silletero</option>
+              <option value="arquitecto">Arquitecto</option>
+              <option value="bombista">Bombista</option>
+              <option value="ascensorista">Ascensorista</option>
+              <option value="electricista">Electricista</option>
+            </select>
+          </div>
+          <!-- BOTON PARA ENVIAR LA SOLICITUD -->
+        </form>
+      </section>
+      <div id="btnEnviarSolicitudProveedor">
+        <a href="../index.html"><button>Enviar Solicitud</button></a>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright © 2023 Innovar</p>
+      <p>Hecho por Farid Mohanna</p>
+    </footer>
+  </body>
+</html>

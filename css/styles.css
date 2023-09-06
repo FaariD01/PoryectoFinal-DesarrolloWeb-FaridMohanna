@@ -585,4 +585,107 @@ footer p {
   font-family: fuentePrincipal;
 }
 
+@font-face {
+  font-family: "fuentePrincipal";
+  src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
+}
+#mainUniteAlEquipo h3 {
+  background-color: rgb(33, 141, 212);
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1vh 0vh 1vh 0vh;
+}
+#mainUniteAlEquipo #secFormularioPostulacionAdministrativo {
+  display: flex;
+  justify-content: space-around;
+  margin: 0vh 2vh 0vh 2vh;
+}
+#mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo {
+  border: 3px solid rgb(42, 44, 165);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0vh 2vh 0vh 2vh;
+  background-color: rgb(70, 128, 194);
+  color: white;
+  width: 80vh;
+}
+#mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo div label {
+  font-size: 1.5rem;
+  width: 15vh;
+}
+#mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo div input {
+  margin-left: 2vh;
+  margin-bottom: 2vh;
+  width: 30vh;
+  height: 3vh;
+}
+#mainUniteAlEquipo #btnEnviarSolicitudAdministrativo {
+  display: flex;
+  justify-content: center;
+  width: 110vh;
+  margin-top: 2vh;
+}
+#mainUniteAlEquipo #btnEnviarSolicitudAdministrativo a button {
+  width: 30vh;
+  height: 7vh;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: rgb(60, 184, 60);
+  color: white;
+  border-color: white;
+  font-family: fuentePrincipal;
+}
+#mainUniteAlEquipo #secFormularioPostulacionProveedor {
+  display: flex;
+  justify-content: space-around;
+  margin: 0vh 2vh 0vh 2vh;
+}
+#mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor {
+  border: 3px solid rgb(42, 44, 165);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0vh 2vh 0vh 2vh;
+  background-color: rgb(70, 128, 194);
+  color: white;
+  width: 80vh;
+}
+#mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor div label {
+  font-size: 1.5rem;
+  width: 15vh;
+}
+#mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor div input {
+  margin-left: 2vh;
+  margin-bottom: 2vh;
+  width: 30vh;
+  height: 3vh;
+}
+#mainUniteAlEquipo #btnEnviarSolicitudProveedor {
+  text-align: end;
+  margin-right: 35vh;
+  margin-top: 3vh;
+}
+#mainUniteAlEquipo #btnEnviarSolicitudProveedor a button {
+  width: 30vh;
+  height: 7vh;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: rgb(60, 184, 60);
+  color: white;
+  border-color: white;
+  font-family: fuentePrincipal;
+}
+
 /*# sourceMappingURL=styles.css.map */
