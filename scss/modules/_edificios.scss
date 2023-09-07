@@ -95,3 +95,195 @@
         }
     }
 }
+
+@media (max-width: 1410px){
+    #mainEdificios{
+        #listadoDeEdificios{
+            #edificio{                  
+                #edificioIzquierda{
+                    a{
+                        img{
+                            width: 40vh;
+                        }
+                    }
+                    #infoEdificio{
+                        h2{
+                            font-size: 2.5rem;
+                        }
+                    }
+                }
+                #edificioDerecha{
+                    #infoEdificio{
+                        h2{
+                            font-size: 2.5rem;
+                        }
+                    }
+                    a{
+                        img{
+                            width: 40vh;
+                        }
+                    }
+    
+                }
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 1340px){
+    #mainEdificios{
+        #listadoDeEdificios{
+            #edificio{                  
+                #edificioIzquierda{
+                    a{
+                        img{
+                            width: 35vh;
+                        }
+                    }
+                    #infoEdificio{
+                        h2{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+                #edificioDerecha{
+                    #infoEdificio{
+                        h2{
+                            font-size: 2rem;
+                        }
+                    }
+                    a{
+                        img{
+                            width: 35vh;
+                        }
+                    }
+    
+                }
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    #mainEdificios{
+        #edificio{                 
+            #edificioIzquierda{
+                flex-direction: column;
+            }
+            #edificioDerecha{
+                flex-direction: column;
+                #infoEdificio{
+                    order: 2;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px){
+    #mainEdificios{
+        #listadoDeEdificios{
+            #edificio{                  
+                #edificioIzquierda{
+                    a{
+                        display: flex;
+                        justify-content: center;
+                        img{
+                            width: 25vh;
+                        }
+                    }
+                }
+                #edificioDerecha{
+                    a{  display: flex;
+                        justify-content: center;
+                        img{
+                            width: 25vh;
+                        }
+                    }
+    
+                }
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 540px){
+    #mainEdificios{
+        #listadoDeEdificios{
+            #edificio{                  
+                #edificioIzquierda{
+                    width: 50%;
+                    a{
+                        img{
+                            width: 20vh;
+                        }
+                    }
+                    #infoEdificio{
+                        h2{
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+                #edificioDerecha{
+                    width: 50%;
+                    #infoEdificio{
+                        h2{
+                            font-size: 1.5rem;
+                        }
+                    }
+                    a{
+                        img{
+                            width: 20vh;
+                        }
+                    }
+    
+                }
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 540px){
+    #mainEdificios{
+        #listadoDeEdificios{
+            #edificio{     
+                display: flex;
+                flex-direction: column;   
+                align-items: center;  
+                     
+                #edificioIzquierda{
+                    text-align: center;
+                    a{
+                        img{
+                            width: 40vh;
+                        }
+                    }
+                    #infoEdificio{
+                        h2{
+                            font-size: 2.5rem;
+                        }
+                    }
+                }
+                #edificioDerecha{
+                    margin-top: 5vh;
+                    #infoEdificio{
+                        h2{
+                            font-size: 2.5rem;
+                        }
+                    }
+                    a{
+                        img{
+                            width: 40vh;
+                        }
+                    }
+    
+                }
+                
+            }
+        }
+    }
+}

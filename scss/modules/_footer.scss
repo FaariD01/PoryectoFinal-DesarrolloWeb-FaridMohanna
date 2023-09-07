@@ -13,3 +13,9 @@ footer{
         color: white;
     }
 }
+
+@media (max-width: 540px){
+    footer{
+        height: 19vh;
+    }
+}
