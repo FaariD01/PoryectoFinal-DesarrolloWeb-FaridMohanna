@@ -31,3 +31,51 @@ header{
         }
     }
 }
+
+@media (max-width: 992px){
+    header{
+        flex-wrap: wrap;
+        #botoneraNav{
+            padding-bottom: 2vh;
+            display: flex;
+        }
+    }
+}
+@media (max-width: 650px){
+    header{
+        #botoneraNav{
+            padding-bottom: 2vh;
+            display: flex;
+            font-size: .8rem;
+            
+        }
+    }
+}
+@media (max-width: 500px){
+    header{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 25vh;
+        #logo{
+            margin-top: 2vh;
+        }
+        #botoneraNav{
+            flex-direction: column;
+            padding-bottom: 2vh;
+            display: flex;
+            font-size: 1.2rem;
+            margin-top: 1vh;
+            border-top: 3px solid rgb(33, 141, 212);
+            width: 100%;
+            align-items: center;
+            
+            a{
+                margin-top: 1vh;
+                border: none;
+                text-align: center;
+                width: 30vh;             
+                
+            }
+        }
+    }
+}
