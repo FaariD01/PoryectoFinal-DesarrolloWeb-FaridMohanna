@@ -449,7 +449,7 @@ header #botoneraNav #btnTrabajaConNostros {
     height: 0vh;
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 428px) {
   #mainInicio #secTitulo #textoPresentacion {
     width: 40vh;
   }
