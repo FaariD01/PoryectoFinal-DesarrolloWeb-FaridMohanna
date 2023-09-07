@@ -449,6 +449,22 @@ header #botoneraNav #btnTrabajaConNostros {
     height: 0vh;
   }
 }
+@media (max-width: 390px) {
+  #mainInicio #secTitulo #textoPresentacion {
+    width: 40vh;
+  }
+  #mainInicio #secEquipo #infoEquipo {
+    width: 40vh;
+  }
+  #mainInicio #secServicio #textoServicio {
+    width: 40vh;
+    font-size: 1.2rem;
+  }
+  #mainInicio #secBannerTecnologia p {
+    width: 40vh;
+    font-size: 1rem;
+  }
+}
 @font-face {
   font-family: "fuentePrincipal";
   src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
