@@ -465,6 +465,45 @@ header #botoneraNav #btnTrabajaConNostros {
     font-size: 1rem;
   }
 }
+@media (max-width: 320px) {
+  #mainInicio #secTitulo #textoPresentacion {
+    width: 30vh;
+    font-size: 1rem;
+  }
+  #mainInicio #secEquipo #infoEquipo {
+    width: 30vh;
+  }
+  #mainInicio #secServicio #textoServicio {
+    width: 30vh;
+    font-size: 1.2rem;
+  }
+  #mainInicio #secMetodologiaTrabajo #infoMetodologiaTrabajo h2 {
+    font-size: 1.5rem;
+    width: 30vh;
+  }
+  #mainInicio #secMetodologiaTrabajo #infoMetodologiaTrabajo h3 {
+    width: 30vh;
+  }
+  #mainInicio #secMetodologiaTrabajo #infoMetodologiaTrabajo ul li {
+    font-size: 1rem;
+  }
+  #mainInicio #secBannerTecnologia {
+    height: 70vh;
+  }
+  #mainInicio #secBannerTecnologia h2 {
+    font-size: 2.5rem;
+  }
+  #mainInicio #secBannerTecnologia p {
+    width: 30vh;
+    font-size: 1rem;
+  }
+  #mainInicio #secBeneficios #infoBeneficios h2 {
+    width: 30vh;
+  }
+  #mainInicio #secBeneficios #infoBeneficios ul li {
+    font-size: 1rem;
+  }
+}
 @font-face {
   font-family: "fuentePrincipal";
   src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
@@ -482,6 +521,11 @@ footer p {
   color: white;
 }
 
+@media (max-width: 330px) {
+  footer {
+    font-size: 0.7rem;
+  }
+}
 @media (max-width: 540px) {
   footer {
     height: 19vh;
@@ -659,6 +703,7 @@ footer p {
     text-align: center;
   }
   #mainEdificios #listadoDeEdificios #edificio #edificioIzquierda a img {
+    margin: auto;
     width: 40vh;
   }
   #mainEdificios #listadoDeEdificios #edificio #edificioIzquierda #infoEdificio h2 {
@@ -671,7 +716,35 @@ footer p {
     font-size: 2.5rem;
   }
   #mainEdificios #listadoDeEdificios #edificio #edificioDerecha a img {
+    margin: auto;
     width: 40vh;
+  }
+}
+@media (max-width: 350px) {
+  #mainEdificios #listadoDeEdificios #edificio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #mainEdificios #listadoDeEdificios #edificio #edificioIzquierda {
+    text-align: center;
+  }
+  #mainEdificios #listadoDeEdificios #edificio #edificioIzquierda a img {
+    margin: auto;
+    width: 30vh;
+  }
+  #mainEdificios #listadoDeEdificios #edificio #edificioIzquierda #infoEdificio h2 {
+    font-size: 2rem;
+  }
+  #mainEdificios #listadoDeEdificios #edificio #edificioDerecha {
+    margin-top: 5vh;
+  }
+  #mainEdificios #listadoDeEdificios #edificio #edificioDerecha #infoEdificio h2 {
+    font-size: 2rem;
+  }
+  #mainEdificios #listadoDeEdificios #edificio #edificioDerecha a img {
+    margin: auto;
+    width: 30vh;
   }
 }
 @font-face {

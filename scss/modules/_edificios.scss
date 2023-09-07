@@ -258,7 +258,7 @@
                 #edificioIzquierda{
                     text-align: center;
                     a{
-                        img{
+                        img{margin: auto;
                             width: 40vh;
                         }
                     }
@@ -276,8 +276,49 @@
                         }
                     }
                     a{
-                        img{
+                        img{margin: auto;
                             width: 40vh;
+                        }
+                    }
+    
+                }
+                
+            }
+        }
+    }
+}
+@media (max-width: 350px){
+    #mainEdificios{
+        #listadoDeEdificios{
+            #edificio{     
+                display: flex;
+                flex-direction: column;   
+                align-items: center;  
+                     
+                #edificioIzquierda{
+                    text-align: center;
+                    a{
+                        img{
+                            margin: auto;
+                            width: 30vh;
+                        }
+                    }
+                    #infoEdificio{
+                        h2{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+                #edificioDerecha{
+                    margin-top: 5vh;
+                    #infoEdificio{
+                        h2{
+                            font-size: 2rem;
+                        }
+                    }
+                    a{
+                        img{margin: auto;
+                            width: 30vh;
                         }
                     }
     

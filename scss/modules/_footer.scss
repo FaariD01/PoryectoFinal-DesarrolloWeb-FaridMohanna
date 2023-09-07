@@ -14,6 +14,13 @@ footer{
     }
 }
 
+@media (max-width: 330px){
+    footer{
+        font-size: .7rem;
+    }
+}
+
+
 @media (max-width: 540px){
     footer{
         height: 19vh;
