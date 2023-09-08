@@ -88,3 +88,141 @@
 
 
 
+@media (max-width: 870px){
+    #mainFormularioSolicitarPresupuesto{
+        #formularios{
+            flex-direction: column;
+            #formularioDatosContacto{
+                width: 100%;
+            }
+            #formularioDatosEdificio{
+                width: 100%;
+                div{
+                    margin-left: 5vh;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px){
+    #mainFormularioSolicitarPresupuesto{
+        #formularios{
+            #formularioDatosContacto{
+                h3{
+                    font-size: 2rem;
+                }
+                div{
+                    label{
+                        
+                        font-size: 1.2rem;
+                        
+                    }
+                    input{
+                        width: 25vh;      
+                    }
+                }
+            }
+            #formularioDatosEdificio{
+                h3{
+                    font-size: 2rem;
+                }
+                div{
+                    label{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+        #btnEnviarSolicitud{
+            a{
+                button{
+                    width: 20vh;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px){
+    #mainFormularioSolicitarPresupuesto{
+        #formularios{
+            #formularioDatosContacto{
+                h3{
+                    font-size: 1.5rem;
+                }
+                div{
+                    label{
+                        
+                        font-size: 1rem;
+                        
+                    }
+                    input{
+                        width: 20vh;      
+                    }
+                }
+            }
+            #formularioDatosEdificio{
+                h3{
+                    font-size: 1/5rem;
+                }
+                div{
+                    label{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+        #btnEnviarSolicitud{
+            a{
+                button{
+                    width: 20vh;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 350px){
+    #mainFormularioSolicitarPresupuesto{
+        #formularios{
+            #formularioDatosContacto{
+                display: flex;
+                flex-direction: column;
+                h3{
+                    font-size: 1.5rem;
+                }
+                div{
+                    label{
+                        
+                        font-size: 1rem;
+                        
+                    }
+                    input{
+                        width: 28vh;      
+                    }
+                }
+            }
+            #formularioDatosEdificio{
+                h3{
+                    font-size: 1/5rem;
+                }
+                div{
+                    label{
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+        #btnEnviarSolicitud{
+            a{
+                button{
+                    width: 20vh;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}

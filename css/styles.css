@@ -1143,6 +1143,87 @@ footer p {
   font-family: fuentePrincipal;
 }
 
+@media (max-width: 870px) {
+  #mainFormularioSolicitarPresupuesto #formularios {
+    flex-direction: column;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto {
+    width: 100%;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio {
+    width: 100%;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio div {
+    margin-left: 5vh;
+  }
+}
+@media (max-width: 600px) {
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto h3 {
+    font-size: 2rem;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto div label {
+    font-size: 1.2rem;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto div input {
+    width: 25vh;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio h3 {
+    font-size: 2rem;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio div label {
+    font-size: 1.2rem;
+  }
+  #mainFormularioSolicitarPresupuesto #btnEnviarSolicitud a button {
+    width: 20vh;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 400px) {
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto h3 {
+    font-size: 1.5rem;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto div label {
+    font-size: 1rem;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto div input {
+    width: 20vh;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio h3 {
+    font-size: 1/5rem;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio div label {
+    font-size: 1rem;
+  }
+  #mainFormularioSolicitarPresupuesto #btnEnviarSolicitud a button {
+    width: 20vh;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 350px) {
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto {
+    display: flex;
+    flex-direction: column;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto h3 {
+    font-size: 1.5rem;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto div label {
+    font-size: 1rem;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosContacto div input {
+    width: 28vh;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio h3 {
+    font-size: 1/5rem;
+  }
+  #mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio div label {
+    font-size: 0.8rem;
+  }
+  #mainFormularioSolicitarPresupuesto #btnEnviarSolicitud a button {
+    width: 20vh;
+    font-size: 1.2rem;
+  }
+}
 @font-face {
   font-family: "fuentePrincipal";
   src: url(../assets/fonts/Carthage-Pro-Regular.ttf);
