@@ -1028,7 +1028,7 @@ footer p {
     width: 30vh;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   #mainContrataServicios #contacto #nosotrosTeContactamos #btnPresupuesto a button {
     width: 30vh;
     height: 10vh;
@@ -1189,7 +1189,7 @@ footer p {
     width: 20vh;
   }
   #mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio h3 {
-    font-size: 1/5rem;
+    font-size: 1.5rem;
   }
   #mainFormularioSolicitarPresupuesto #formularios #formularioDatosEdificio div label {
     font-size: 1rem;
@@ -1325,6 +1325,128 @@ footer p {
   color: white;
   border-color: white;
   font-family: fuentePrincipal;
+}
+
+@media (max-width: 1400px) {
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo {
+    width: 50vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo img {
+    width: 70vh;
+  }
+  #mainUniteAlEquipo #btnEnviarSolicitudAdministrativo {
+    width: 80vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor {
+    width: 50vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor img {
+    width: 70vh;
+  }
+  #mainUniteAlEquipo #btnEnviarSolicitudProveedor {
+    margin-right: 25vh;
+  }
+}
+@media (max-width: 1100px) {
+  #mainUniteAlEquipo h3 {
+    font-size: 2rem;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo {
+    width: 50vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo div label {
+    font-size: 1rem;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo div input {
+    height: 2vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo img {
+    width: 50vh;
+  }
+  #mainUniteAlEquipo #btnEnviarSolicitudAdministrativo {
+    width: 70vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor {
+    width: 50vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor div label {
+    font-size: 1rem;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor div input {
+    height: 2vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor img {
+    width: 50vh;
+  }
+  #mainUniteAlEquipo #btnEnviarSolicitudProveedor {
+    margin-right: 20vh;
+  }
+}
+@media (max-width: 880px) {
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo {
+    flex-direction: column;
+    align-items: center;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo img {
+    width: 40vh;
+    margin-top: 2vh;
+  }
+  #mainUniteAlEquipo #btnEnviarSolicitudAdministrativo {
+    width: 100%;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor {
+    flex-direction: column;
+    align-items: center;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor img {
+    width: 40vh;
+    margin-bottom: 2vh;
+  }
+  #mainUniteAlEquipo #btnEnviarSolicitudProveedor {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  #mainUniteAlEquipo h3 {
+    font-size: 1.5rem;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo {
+    width: 80%;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo div {
+    margin: 1vh 0vh 1vh 0vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo div label {
+    font-size: 1rem;
+    width: 15vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo #formularioPostulacionAdministrativo div input {
+    width: 20vh;
+    height: 3vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor {
+    width: 80%;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor div {
+    margin: 1vh 0vh 1vh 0vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor div label {
+    font-size: 1rem;
+    width: 15vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor #formularioPostulacionProveedor div input {
+    width: 20vh;
+    height: 3vh;
+  }
+}
+@media (max-width: 340px) {
+  #mainUniteAlEquipo #secFormularioPostulacionAdministrativo img {
+    width: 30vh;
+  }
+  #mainUniteAlEquipo #secFormularioPostulacionProveedor img {
+    width: 30vh;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
